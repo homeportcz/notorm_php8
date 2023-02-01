@@ -1,16 +1,27 @@
 {
-	"name": "vrana/notorm",
-	"description": "NotORM is a PHP library for simple working with data in the database.",
-	"keywords": ["database", "dbal"],
-	"homepage": "http://www.notorm.com/",
-	"license": ["Apache-2.0", "GPL-2.0+"],
-	"authors": [
-		{
-			"name": "Jakub Vrána",
-			"homepage": "http://www.vrana.cz/"
-		}
-	],
-	"autoload": {
-		"files": ["NotORM.php"]
-	}
+  "name": "homeportcz/notorm_php8",
+  "description": "NotORM is a PHP library for simple working with data in the database. Fork with added PHP 8 compatibility.",
+  "keywords": [
+    "database",
+    "dbal"
+  ],
+  "homepage": "http://www.notorm.com/",
+  "license": [
+    "Apache-2.0",
+    "GPL-2.0+"
+  ],
+  "authors": [
+    {
+      "name": "Jiří Voseček",
+      "homepage": "https://www.freebike.com/"
+    }
+  ],
+  "require": {
+    "php": ">=8.2"
+  },
+  "autoload": {
+    "files": [
+      "NotORM.php"
+    ]
+  }
 }
